@@ -13,7 +13,7 @@ class D:
         print("something has been done")
 
 class C: 
-    def __init__(self, d):
+    def __init__(self, d: D):
         self.d = d
         self.ready = False
 
